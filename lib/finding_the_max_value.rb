@@ -16,6 +16,7 @@ def find_max_value(array)
       i+=1
     else
       max = max
+      i+=1
     end
   end
 end
