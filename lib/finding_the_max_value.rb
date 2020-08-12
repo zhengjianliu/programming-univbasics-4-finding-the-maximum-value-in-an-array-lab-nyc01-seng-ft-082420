@@ -8,15 +8,11 @@
 #second solution
 
 def find_max_value(array)
-  max = 0
+  max = -1
   i = 0
   while i != array.size do
-    if max <= array[i]
+    if max < array[i]
       max = array[i]
-      i+=1
-    else
-      max = max
-      i+=1
     end
-  end
+      i+=1
 end
